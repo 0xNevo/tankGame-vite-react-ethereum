@@ -7,6 +7,6 @@
     Vite + React + Solidity + MUI
 </h1>
 
-![](/Tank.gif)
+![](/public/Tank.gif)
 
 <br/>
