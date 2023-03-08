@@ -21,23 +21,7 @@ const TankItem = ( props ) => {
 					alt="green iguana"
 				/>
 			</CardActionArea>
-			
-			<CardActionArea>
-				<CardMedia
-					component="img"
-					height="180"
-					image={props.img}
-					alt="green iguana"
-				/>
-			</CardActionArea>
-			<CardActionArea>
-				<CardMedia
-					component="img"
-					height="180"
-					image={props.img}
-					alt="green iguana"
-				/>
-			</CardActionArea>
+
 		</Card>
 		: <Button variant="contained" href="/">
 			Redirect
