@@ -118,7 +118,7 @@ const Board = ( props ) => {
 		box._start = start;
 		box._end = end;
 
-		matrix = matrix || box._matrix || [[]];
+		matrix = matrix || [[]];
 
 		if (cols > matrix[0].length) matrix.forEach((a,i) => matrix[i] = a.concat(Array(cols-a.length).fill(3)));
 		else if (cols < matrix[0].length) matrix.forEach(a => a.splice(cols, a.length - cols));
@@ -169,7 +169,6 @@ const Board = ( props ) => {
 			block = block.cloneNode(false);
 			block.className = "element cell-"
 			block.className += className(t);
-			//block.setAttribute("p", pathPos[x+"x"+y]!==undefined ? pathPos[x+"x"+y] : "");
 			block._xy = [x,y];
 			box.appendChild(block);
 		}));
