@@ -40,12 +40,24 @@ const App = () => {
 				}
 			/>
 			<Route
+				path="minting/1"
+				element={
+					<Mint
+						player = {1} tankMintContractWithSigner = {tankMintContractWithSigner}
+					/>
+				}
+			/>
+			<Route
 				path="minting/2"
 				element={
 					<Mint
 						player = {2} tankMintContractWithSigner = {tankMintContractWithSigner}
 					/>
 				}
+			/>
+			<Route path="start" 
+				element={
+					<StartPage tankMintContractWithSigner = {tankMintContractWithSigner}/>} 
 			/>
 			<Route path="start" 
 				element={
