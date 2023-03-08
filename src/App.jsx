@@ -13,6 +13,7 @@ import * as C from './const';
 import "./App.css";
 
 const App = () => {
+	
 	const [isMetamaskInstalled, setIsMetamaskInstalled] = useState(false);
 
 	const contractABI = tankMintABI;
@@ -55,4 +56,5 @@ const App = () => {
 		</Routes>
 	);
 }
+
 export default App;
