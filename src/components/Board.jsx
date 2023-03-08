@@ -21,6 +21,15 @@ const Board = ( props ) => {
 		message: 'Wallet Connected',
 		color: 'success'
 	});
+	
+	const [state1, setState1] = React.useState({
+		snack: false,
+		vertical: 'bottom',
+		horizontal: 'right',
+		message: 'Wallet Connected',
+		color: 'success'
+	});
+	
 
 	const { vertical, horizontal, snack, message, color } = state;
 
